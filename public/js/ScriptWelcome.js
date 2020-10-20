@@ -1,0 +1,1 @@
+$( "#barnave" ).hide();

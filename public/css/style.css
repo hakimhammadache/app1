@@ -1,0 +1,54 @@
+
+
+*{
+    font-family: "Goudy Bookletter 1911", sans-serif;
+
+    box-sizing: border-box;
+    }
+
+
+
+.header2{
+	background-image: linear-gradient(to right,white,gray,white,white);
+}
+
+ .titre{
+    color: #093852;
+    text-align: center;
+   
+}
+ 
+.form-control:not(select) {
+    padding: 1.2rem 0.5rem;
+    border-color: #a1a9b5 ;
+     
+}
+
+select.form-control {
+  
+    padding-left: 0.5rem;
+    border-color: #a1a9b5;
+
+
+
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight:500;
+    font-size: 0.8rem;
+}
+.form-control:focus {
+    box-shadow: none;
+   
+}
+@media screen and (max-width: 576px) {
+    .form-control:not(select) {
+    padding: 0;
+}
+
+
+  
+
+}
+
