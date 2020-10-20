@@ -13,10 +13,10 @@ define('SCRIPTS', dirname($_SERVER['SCRIPT_NAME']) . DIRECTORY_SEPARATOR);
 
 
 //var_dump(TRT);die();
-define('DB_NAME', 'dbvic');
+define('DB_NAME', 'd1qgr2p37d36dj');
 define('DB_HOST', '127.0.0.1');
-define('DB_USER', 'root');
-define('DB_PWD', '');
+define('DB_USER', 'tppyinxecriwpi');
+define('DB_PWD', '8c6374817a8c5dd986fc2eadc0f39ff86e6aca7cc5c98eab18bac1935bf29d79');
 
 
 $router = new Router($_GET['url']);

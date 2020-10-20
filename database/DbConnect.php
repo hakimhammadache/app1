@@ -24,7 +24,7 @@ class DbConnect
     public function getPDO(): PDO
     {
         if ($this->pdo === null) {
-            $this->pdo = new PDO ("mysql:dbname={$this->dbname};host={$this->host}",
+            $this->pdo = new PDO ("pgsql:dbname={$this->dbname};host={$this->host}",
             $this->username, $this->password,[
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
                 PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
